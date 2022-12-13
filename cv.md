@@ -1,7 +1,7 @@
 # 1. Vladislav Matusevich
 ![avatar](Pic1.jpg)
 ## 2. +375 25 757 48 63
-## 3. My goal is to learn front-end / JS, Punctual, responsible and communicative, my work experience was mainly technical equipment, administration of contracts, contracts, applications, keeping records of material assets and energy, I like to learn something new.
+## 3. My goal is to learn front-end / JS, Punctual responsible and communicative, my work experience was mainly technical equipment, administration of contracts, contracts, applications, keeping records of material assets and energy, I like to learn something new.
 ## 4. basic knowledge of programming in JAVA and JS, I mainly work with Visual studio code
 ## 5. import java.util.Scanner;
 ## 6. Java calculator
