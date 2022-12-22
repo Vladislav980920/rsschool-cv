@@ -1,95 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">  
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>CV</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <nav class="nav"><ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
-            </ul></nav>
-        </div>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
+      <div class="main-container">
         <section class="section" id="profile">
-            <h1>Vladislav Matusevich</h1>
-            <img src="Pic1.jpg" width="300" height="150" alt="myPhoto">
+          <h1>Vladislav Matusevich</h1>
+          <img
+            src="Pic1.jpg"
+            width="300"
+            height="300"
+            alt="myPhoto"
+            class="round"
+          />
         </section>
         <section class="section" id="Contacts">
-            <h2>Contacts:</h2>
-            <h3>Minsk, Belarus.</h3>
-            <h4>Tel. +375 25 111-11-11</h4>
-            <h4>email vlad.vm98@gmail.com</h4>
+          <h2>Contacts:</h2>
+          <h3>Minsk, Belarus.</h3>
+          <h4>Tel. +375 25 111-11-11</h4>
+          <h4>email vlad.vm98@gmail.com</h4>
         </section>
         <section class="section" id="Summary">
-            <h2>Summary:</h2>
-            <h3>My goal is to learn front-end / JS, Punctual responsible and communicative, my work experience was mainly technical equipment, administration of contracts, contracts, applications, keeping records of material assets and energy, I like to learn something new.
-            ## 4. basic knowledge of programming in JAVA and JS, I mainly work with Visual studio code</h3></section>
+          <h2>Summary:</h2>
+          <h3>
+            My goal is to learn front-end / JS, Punctual responsible and
+            communicative, my work experience was mainly technical equipment,
+            administration of contracts, contracts, applications, keeping
+            records of material assets and energy, I like to learn something
+            new. ## 4. basic knowledge of programming in JAVA and JS, I mainly
+            work with Visual studio code
+          </h3>
+        </section>
         <section class="section" id="Skills">
-            <h2>Skills:</h2>
-            <h4>import java.util.Scanner;</h4></section>
+          <h2>Skills:</h2>
+          <h4>import java.util.Scanner;</h4>
+        </section>
         <section class="section" id="Code">
-            <h2>Code:</h2>
-            <h4> Java calculator
-            `public class Main{
-              public static void main(String[] args){
-                double num1;
-                double num2;
-                double ans;
-                char op;
-                Scanner reader = new Scanner (System.in);
-                System.out.print("Enter two numbers: ");
-                num1 = reader.nextDouble();
-                num2 = reader.nextDouble();
-                System.out.print("\nEnter an operator (+, -, *, /): ");
-                op = reader.next().charAt(0);
-                switch (op){
-                  case '+': ans = num1 + num2;
-                    break;
-                  case '-': ans = num1 - num2;
-                    break;
-                  case '*': ans = num1 / num2;
-                    break;
-                  case '/': ans = num1 * num2; 
-                    break;
-                  default: System.out.printf("Error! Enter correct operator");
-                    return;
-                }
-                System.out.print("\nThe result is given as follows:\n");
-                System.out.print(num1 + " " + op + " " + num2 + " = " + ans);
-              }`</h4></section>
+          <h2>Code:</h2>
+          <h4>
+            Java calculator `public class Main{ public static void main(String[]
+            args){ double num1; double num2; double ans; char op; Scanner reader
+            = new Scanner (System.in); System.out.print("Enter two numbers: ");
+            num1 = reader.nextDouble(); num2 = reader.nextDouble();
+            System.out.print("\nEnter an operator (+, -, *, /): "); op =
+            reader.next().charAt(0); switch (op){ case '+': ans = num1 + num2;
+            break; case '-': ans = num1 - num2; break; case '*': ans = num1 /
+            num2; break; case '/': ans = num1 * num2; break; default:
+            System.out.printf("Error! Enter correct operator"); return; }
+            System.out.print("\nThe result is given as follows:\n");
+            System.out.print(num1 + " " + op + " " + num2 + " = " + ans); }`
+          </h4>
+        </section>
         <section class="section" id="Courses">
-            <h2>Courses:</h2>
-            <h4>HTML: learning html layout for beginners</h4>
-            <h4>CSS: online learning from scratch</h4>
+          <h2>Courses:</h2>
+          <h4>HTML: learning html layout for beginners</h4>
+          <h4>CSS: online learning from scratch</h4>
         </section>
         <section class="section" id="Projects">
-            <h2>Projects:</h2>
-            <h4>presentation</h4>
+          <h2>Projects:</h2>
+          <h4>presentation</h4>
         </section>
         <section class="section" id="Education">
-            <h2>Education:</h2>
-            <h4>Minsk State Automotive College named after Academician M.S. Vysotsky</h4>
-            <h4>Belarusian National Technical University</h4>
+          <h2>Education:</h2>
+          <h4>
+            Minsk State Automotive College named after Academician M.S. Vysotsky
+          </h4>
+          <h4>Belarusian National Technical University</h4>
         </section>
         <section class="section" id="English">
-            <h2>English:</h2>
-            <h4>Elementary A2</h4>
+          <h2>English:</h2>
+          <h4>Elementary A2</h4>
         </section>
+      </div>
     </main>
-    <footer></footer>
-</body>
+    <footer>
+      <p>RS school</p>
+    </footer>
+  </body>
 </html>
